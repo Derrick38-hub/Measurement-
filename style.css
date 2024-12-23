@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input [type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2) ;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+button[type="submit"] {
+    height: 50px;
+    background-color: skyblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button[type="submit"] {
+    background-color: grey;
+}
+
+p {
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
